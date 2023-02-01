@@ -1,10 +1,5 @@
-import { useState } from "react";
-import Header from "./components/ui/Header";
-
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <Header />;
+  return <div>This is the base app</div>;
 }
 
 export default App;
