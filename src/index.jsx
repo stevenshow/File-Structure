@@ -5,7 +5,7 @@ import App from "./App";
 import Error from "./pages/Error";
 import Login from "./pages/Login";
 import Page from "./layout/page";
-import Header from "./components/ui/Header";
+import Complete from "./pages/Complete";
 
 const makePage = (Component) => {
   return (
@@ -24,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/Login",
     element: makePage(Login),
+  },
+  {
+    path: "/Complete",
+    element: makePage(Complete),
   },
 ]);
 
