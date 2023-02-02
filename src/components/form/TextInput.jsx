@@ -1,3 +1,8 @@
-export default function TextInput() {
-  return <input>Text Input</input>;
+export default function TextInput({ title }) {
+  return (
+    <div>
+      <span>{title}</span>
+      <input />
+    </div>
+  );
 }
